@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-06-05T12:04:00.386Z",
+  "total": 7,
+  "valid": 4,
+  "rejected": 3,
+  "rejectionBreakdown": {
+    "invalidSiren": 1,
+    "invalidEmailSyntax": 0,
+    "invalidMx": 1,
+    "disposableEmail": 1
+  },
+  "validContacts": [
+    {
+      "siren": "552081317",
+      "email": "contact@acme-conseil.fr",
+      "societe": "Acme Conseil SARL",
+      "source": "pappers",
+      "isGenericEmail": true
+    },
+    {
+      "siren": "443061841",
+      "email": "j.martin@formapro.fr",
+      "societe": "FormaPro",
+      "source": "scraping",
+      "isGenericEmail": false
+    },
+    {
+      "siren": "812998002",
+      "email": "p.durand@btp-solutions.fr",
+      "societe": "BTP Solutions",
+      "source": "pappers",
+      "isGenericEmail": false
+    },
+    {
+      "siren": "327911044",
+      "email": "DIRECTION@quickwin.fr",
+      "societe": "Quick Win",
+      "source": "irene",
+      "isGenericEmail": true
+    }
+  ]
+}

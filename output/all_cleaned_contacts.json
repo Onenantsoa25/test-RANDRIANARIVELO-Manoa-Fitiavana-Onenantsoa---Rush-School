@@ -1,0 +1,115 @@
+[
+  {
+    "siren": "552081317",
+    "email": "Contact@ACME-Conseil.fr",
+    "emailNormalized": "contact@acme-conseil.fr",
+    "societe": "ACME Conseil",
+    "source": "scraping",
+    "status": "valid",
+    "isGenericEmail": true,
+    "isDisposableEmail": false,
+    "hasValidMx": true
+  },
+  {
+    "siren": "552081317",
+    "email": "contact@acme-conseil.fr",
+    "emailNormalized": "contact@acme-conseil.fr",
+    "societe": "Acme Conseil SARL",
+    "source": "pappers",
+    "status": "valid",
+    "isGenericEmail": true,
+    "isDisposableEmail": false,
+    "hasValidMx": true
+  },
+  {
+    "siren": "443061841",
+    "email": "j.martin@formapro.fr",
+    "emailNormalized": "j.martin@formapro.fr",
+    "societe": "FormaPro",
+    "source": "scraping",
+    "status": "valid",
+    "isGenericEmail": false,
+    "isDisposableEmail": false,
+    "hasValidMx": true
+  },
+  {
+    "siren": "443061841",
+    "email": "info@formapro.fr",
+    "emailNormalized": "info@formapro.fr",
+    "societe": "FORMAPRO",
+    "source": "scraping",
+    "status": "valid",
+    "isGenericEmail": true,
+    "isDisposableEmail": false,
+    "hasValidMx": true
+  },
+  {
+    "siren": "—",
+    "email": "claire.dubois@vinexpert.fr",
+    "emailNormalized": "claire.dubois@vinexpert.fr",
+    "societe": "Vinexpert",
+    "source": "scraping",
+    "status": "rejected",
+    "rejectionReason": "SIREN invalide: \"—\"",
+    "isGenericEmail": false,
+    "isDisposableEmail": false,
+    "hasValidMx": false
+  },
+  {
+    "siren": "812998002",
+    "email": "nope",
+    "emailNormalized": "nope",
+    "societe": "BTP Solutions",
+    "source": "scraping",
+    "status": "rejected",
+    "rejectionReason": "Domaine sans MX: null",
+    "isGenericEmail": false,
+    "isDisposableEmail": false,
+    "hasValidMx": false
+  },
+  {
+    "siren": "812998002",
+    "email": "p.durand@btp-solutions.fr",
+    "emailNormalized": "p.durand@btp-solutions.fr",
+    "societe": "BTP Solutions",
+    "source": "pappers",
+    "status": "valid",
+    "isGenericEmail": false,
+    "isDisposableEmail": false,
+    "hasValidMx": true
+  },
+  {
+    "siren": "327911044",
+    "email": "test@mailinator.com",
+    "emailNormalized": "test@mailinator.com",
+    "societe": "QuickWin",
+    "source": "scraping",
+    "status": "rejected",
+    "rejectionReason": "Email jetable: mailinator.com",
+    "isGenericEmail": false,
+    "isDisposableEmail": true,
+    "hasValidMx": true
+  },
+  {
+    "siren": "327911044",
+    "email": "DIRECTION@quickwin.fr",
+    "emailNormalized": "direction@quickwin.fr",
+    "societe": "Quick Win",
+    "source": "irene",
+    "status": "valid",
+    "isGenericEmail": true,
+    "isDisposableEmail": false,
+    "hasValidMx": true
+  },
+  {
+    "siren": "552081317",
+    "email": "contact@acme-conseil.fr",
+    "emailNormalized": "contact@acme-conseil.fr",
+    "societe": "ACME Conseils",
+    "source": "irene",
+    "status": "valid",
+    "isGenericEmail": true,
+    "isDisposableEmail": false,
+    "hasValidMx": true
+  }
+]
